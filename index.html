@@ -1,0 +1,237 @@
+<!-- This declaration defines the document type and version of HTML -->
+<!DOCTYPE html>
+<!-- This opening <html> tag signifies the start of an HTML document. The lang="en" attribute indicates that the primary language of the document is English.  -->
+<html lang="en">
+ <!--The <head> section contains meta-information about the document, such as its title, character set, styles, and more. This information is not displayed directly on the web page but is used by browsers and  -->
+<head>
+    <meta charset="UTF-8">
+    <!--This meta tag sets the character encoding for the document to UTF-8. UTF-8 is a standard character encoding that supports many different characters and symbols from all languages. This ensures that the text content is displayed correctly.  -->
+    <!--  It sets the viewport to the width of the device and sets the initial zoom level to 1.0. This makes the web page look good on all devices (desktops, tablets, and phones) by adjusting the layout accordingly. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This meta tag is used to ensure compatibility with older versions of Internet Explorer. It tells IE to use the latest rendering engine available, -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <!-- This link element connects an external CSS file to the HTML document. The rel="stylesheet" attribute specifies the relationship between the HTML document and the linked file, indicating that it is a stylesheet. -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="./css/style.css">
+    <!-- title at top of browser title bar describe -->
+    <title>Netflix - Watch TV Shows Online , Watch Movies Online</title>
+  <!-- The <body> tag signifies the start of the document's body. The body contains all the visible content of the web page, such as text, images, videos, links, etc -->
+</head>
+<body>
+
+<!-- font awesome :fonts -->
+<!-- header tag -->
+<header class="showcase">
+    <!-- showcase :image -->
+    <!-- This is the opening <header> tag with a class attribute showcase. The class name can be used to apply specific CSS styles to this section. -->
+    <!--This <div> element creates a division or section within the header, with a class attribute showcase-top  -->
+        <div class="showcase-top">
+            <!-- his <img> tag displays an image. The src attribute specifies the URL of the image to be displayed, and the alt attribute provides alternative text if the image cannot be displayed. -->
+        <img src="https://i.ibb.co/r5krrdz/logo.png" alt="" />
+       <!-- This <img> tag displays an image. The src attribute specifies the URL of the image to be displayed, and the alt attribute provides alternative text if the image cannot be displayed. -->
+       <!-- This <a> tag creates a link styled as a button,This <a> tag creates a link styled as a button.   -->
+       <a href="#" class="btn btn-rounded">Sign In</a>
+    </div>
+    <!-- showcase content -->
+    <!-- Another HTML comment indicating that the following section will contain the main content of the showcase.
+     Another HTML comment indicating that the following section will contain the main content of the showcase.-->
+    <div class="showcase-content">
+        <!-- <h1> tag defines a large heading with the text "See what's nex -->
+        <h1>See what's next</h1>
+        <!-- <p> tag defines a paragraph with the text  -->
+        <p>Watch anywhere. Cancel Anytime</p>
+        <!-- button large tag -->
+        <!--  Inside the link, there's an icon created by the <i> tag with classes fas fa-chevron-right btn-icon, which would be styled and displayed as a chevron (arrow) icon to the right of the button text. -->
+        <a href="#" class="btn btn-xl"
+            >Watch Free For 30 Days <i class="fas fa-chevron-right btn-icon"></i></a>
+        <!--fas fa-chevron custom class:btn-icon -->
+    </div>
+</header>
+
+
+<section class="tabs">
+    <div class="container">
+        <div id="tab-1" class="tab-item tab-border">
+            
+            <i class="fas fa-door-open fa-3x"></i>
+            <p class="hide-sm">Cancel at any time</p>
+        </div>
+        <div id="tab-2" class="tab-item">
+            
+            <i class="fas fa-tablet-alt fa-3x"></i>
+            <p class="hide-sm">Watch anywhere</p>
+        </div>
+        <div id="tab-3" class="tab-item">
+            <i class="fas fa-tags fa-3x"></i>
+           
+            <p class="hide-sm">Pick your price</p>
+        </div>
+    </div>
+</section>
+
+<section class="tab-content">
+    <div class="container">
+        <!-- Tab Content 1 -->
+        <div id="tab-1-content" class="tab-content-item show">
+            <div class="tab-1-content-inner">
+                <div>
+                    <p class="text-lg text-dark">
+                        If you decide Netflix isn't for you - no problem. No commitment.
+                        Cancel online anytime.
+                    </p>
+                    <a href="#" class="btn btn-lg">Watch Free For 30 Days</a>
+                </div>
+                <img src="https://i.ibb.co/J2xDJV7/tab-content-1.png" alt="" />
+            </div>
+        </div>
+
+        <!-- Tab Content 2 -->
+        <div id="tab-2-content" class="tab-content-item">
+            <div class="tab-2-content-top">
+                <p class="text-lg">
+                    Watch TV shows and movies anytime, anywhere — personalized for
+                    you.
+                </p>
+                <a href="#" class="btn btn-lg">Watch Free For 30 Days</a>
+            </div>
+            <div class="tab-2-content-bottom">
+                <div>
+                    <img src="https://i.ibb.co/DpdN7Gn/tab-content-2-1.png" alt="" />
+                    <p class="text-md">
+                        Watch on your TV
+                    </p>
+                    <p class="text-dark">
+                        Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+                        players and more.
+                    </p>
+                </div>
+                <div>
+                    <img src="https://i.ibb.co/R3r1SPX/tab-content-2-2.png" alt="" />
+                    <p class="text-md">
+                        Watch instantly or download for later
+                    </p>
+                    <p class="text-dark">
+                        Available on phone and tablet, wherever you go.
+                    </p>
+                </div>
+                <div>
+                    <img src="https://i.ibb.co/gDhnwWn/tab-content-2-3.png" alt="" />
+                    <p class="text-md">
+                        Use any computer
+                    </p>
+                    <p class="text-dark">
+                        Watch right on Netflix.com.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab Content 3 -->
+        <div id="tab-3-content" class="tab-content-item">
+            <div class="text-center">
+                <p class="text-lg">
+                    Choose one plan and watch everything on Netflix.
+                </p>
+                <a href="#" class="btn btn-lg">Watch Free For 30 Days</a>
+            </div>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Basic</th>
+                        <th>Standard</th>
+                        <th>Premium</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monthly price after free month ends on 6/19/19</td>
+                        <td>$8.99</td>
+                        <td>$12.99</td>
+                        <td>$15.99</td>
+                    </tr>
+                    <tr>
+                        <td>HD Available</td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Ultra HD Available</td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Screens you can watch on at the same time</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Watch on your laptop, TV, phone and tablet</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Unlimited movies and TV shows</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Cancel anytime</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>First month free</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>Questions? Call 1-866-579-7172</p>
+    <div class="footer-cols">
+        <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Investor Relations</a></li>
+            <li><a href="#">Ways To Watch</a></li>
+            <li><a href="#">Corporate Information</a></li>
+            <li><a href="#">Netflix Originals</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Terms Of Use</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Redeem Gift Cards</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Speed Test</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Media Center</a></li>
+            <li><a href="#">Buy Gift Cards</a></li>
+            <li><a href="#">Cookie Preferences</a></li>
+            <li><a href="#">Legal Notices</a></li>
+        </ul>
+    </div>
+
+</footer>
+
+<script src="./js/main.js"></script>
+</body>
+</html>
