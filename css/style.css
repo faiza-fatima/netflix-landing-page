@@ -57,7 +57,7 @@ img {
 	width: 100%;
 	height: 93vh;
 	position: relative;
-	background: url('https://i.pinimg.com/564x/66/9e/18/669e18a39d33cb2da335e78c14d1420f.jpg') no-repeat center center/cover;
+	background: url('/img/ll.jpeg') no-repeat center center/cover;
 }
 /* https://i.pinimg.com/564x/66/9e/18/669e18a39d33cb2da335e78c14d1420f.jpg */
 /* inside showcse effect */
@@ -72,7 +72,7 @@ img {
 	background: rgba(0, 0, 0, 0.6);
 	/* transparent color */
 	/* bottom-right */
-	box-shadow: inset 120px 100px 250px #111111, inset -120px -100px 250px #000000;
+	box-shadow: inset 130px 95px 235px #070707, inset -115px -95px 235px #0a0a0a;
 }
  /* Adds a dark overlay with inset shadow over the showcase background */
 .showcase-top {
@@ -130,7 +130,7 @@ img {
 .tabs {
 	background: var(--dark-color);
 	padding-top: 1rem;
-	border-bottom: 3px solid #535151;
+	border-bottom: 3px solid #3a3939;
 	border-right: none;
 }
 
